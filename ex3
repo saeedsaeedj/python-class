@@ -1,0 +1,8 @@
+year=int(input('please input  year milade :'))
+
+if ((year % 4 ==0 and year % 100 ==0 )and  (year %400 ==0)):
+    print ('hast')
+elif (year % 4 ==0 and year % 100 !=0 ):
+    print('hast')
+else :
+    print ('nist')
